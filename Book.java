@@ -8,23 +8,18 @@ public class Book {
 		this.title = title;
 		this.isAvailable = true;
 	}
-	
-	public void setID(int id)
-	{
+	public void setID(int id){
 		this.id = id;
 	}
 	public int getID(){
 		return this.id;
 	}
-	
 	public String getTitle(){
 		return this.title;
 	}
-	
 	public boolean isAvailable(){
 		return isAvailable;
 	}
-	
 	public boolean borrow(){
 		if(isAvailable()){
 			this.isAvailable = false;
@@ -34,7 +29,6 @@ public class Book {
 			return false;
 		}
 	}
-	
 	public boolean returnBook(){
 		if(!isAvailable()){
 			this.isAvailable = true;
