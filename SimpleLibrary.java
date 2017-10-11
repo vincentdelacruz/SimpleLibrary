@@ -86,7 +86,7 @@ public class SimpleLibrary {
 		int borrowed2 = lib.borrowBook("Codrina", "Harry Potter"); //Expected: Book not available
 		lib.returnBook("Vincent", borrowed1); //Expected: Successfully returned book
 		lib.returnBook("Vincent", borrowed1); //Expected: Member is not borrowing this book
-		int borrowed3 = lib.borrowBook("Jan", "Harry Potter"); //Expected: Successfully borrowed book
+		int borrowed3 = lib.borrowBook("Jad", "Harry Potter"); //Expected: Successfully borrowed book
 		
 	}
 }
